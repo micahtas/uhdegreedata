@@ -6,17 +6,17 @@ Provides seven functions computing analytics over the [Hawaii Open Data Set for 
 
 Provide the following scripts in your HTML file:
 
-'''
+```
 <script src="//philipmjohnson.github.io/ics314f15/morea/underscore/underscore-min.js"></script>
 <script src="//philipmjohnson.github.io/ics314f15/morea/underscore/uhdata.js"></script>
 <script src="uhdatafunctions.js"></script>
-'''
+```
 
 # Usage
 
 Here are example calls to the analytic functions
 
-'''
+```
 <script>
   console.log("Total Degrees", totalDegrees(uhdata));
   console.log("Percentage Hawaiian", percentageHawaiian(uhdata));
@@ -26,7 +26,7 @@ Here are example calls to the analytic functions
   console.log("Max Degrees", maxDegrees(uhdata));
   console.log("Doctoral Degree Programs", doctoralDegreePrograms(uhdata));
 </script>
-'''
+```
 
 Consult the uhdatafunctions.js file for more details on these functions.
 
